@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ tên (2-40 ký tự)" />
+
+    <EditText
+        android:id="@+id/edtSoLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng vé (1-9)"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnXemVe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem vé" />
+</LinearLayout>
